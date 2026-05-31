@@ -27,6 +27,9 @@ input, textarea {
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
+    padding: 10px;
+}
+    border-radius: 5px;
     padding: 10px; /* Padding'i bloğun içine aldık */
 }
 
