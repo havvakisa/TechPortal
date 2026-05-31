@@ -1,100 +1,27 @@
-/* 1. Global Reset and Body Styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* General Settings */
+* { box-sizing: border-box; }
+body { 
+    font-family: 'Segoe UI', sans-serif; 
+    margin: 0; 
+    background: #d3d3d3; /* Light Gray Background */
+    color: #333333;      /* Dark Gray Text */
+    line-height: 1.6; 
 }
 
-body {
-    background-color: #d3d3d3; /* Light gray background */
-    color: #333333;             /* Dark gray text */
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.6;
-}
+/* Navigation */
+nav { background: #1a1a1a; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
+nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: bold; }
+nav a:hover { color: #007bff; }
 
-/* 2. Navigation Styling */
-nav {
-    background: #1a1a1a;
-    padding: 1rem 5%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+/* Main Content Area */
+.main-content { padding: 40px 10%; background: white; max-width: 1200px; margin: 20px auto; min-height: 60vh; border-radius: 5px; }
 
-nav a {
-    color: white; 
-    text-decoration: none;
-    margin-left: 20px;
-    font-weight: bold;
-}
+/* Card and Image Settings */
+.card { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 5px; }
+.card img { width: 100%; height: 200px; object-fit: cover; border-radius: 5px; }
 
-nav a:hover {
-    color: #007bff;
-}
+/* Image Setting for News Page (Original Size) */
+.main-content > img { width: 100%; height: auto; }
 
-/* 3. Main Content Area */
-.main-content {
-    padding: 40px 10%;
-    background: #ffffff; /* White background for the main content area */
-    max-width: 1200px;
-    margin: 20px auto;
-    min-height: 60vh;
-    border-radius: 5px;
-}
-
-/* 4. Footer Styling */
-footer {
-    text-align: center;
-    padding: 20px;
-    background: #1a1a1a;
-    color: white;
-    margin-top: 20px;
-}
-
-/* 5. Product Card Styling (Reviews Page) */
-.card {
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-}
-
-/* Specific styling for images inside cards */
-.card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 5px;
-    padding: 10px;
-}
-
-/* News page images (Restoring original appearance) */
-.main-content > img {
-    width: 100%;
-    height: auto;
-    padding: 0;
-}
-
-/* 6. Form and Button Styling */
-input, textarea {
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    padding: 10px;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-button {
-    padding: 12px 20px;
-    background: #007bff;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-button:hover {
-    background: #0E0B3B;
-    transition: 0.3s;
-}
+/* Footer */
+footer { text-align: center; padding: 20px; background: #1a1a1a; color: white; margin-top: 20px; }
