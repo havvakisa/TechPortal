@@ -1,27 +1,66 @@
-/* General Settings */
+/* General reset */
 * { box-sizing: border-box; }
+
+/* Main body styling with light gray background */
 body { 
     font-family: 'Segoe UI', sans-serif; 
     margin: 0; 
-    background: #d3d3d3; /* Light Gray Background */
-    color: #333333;      /* Dark Gray Text */
+    background: #e0e0e0; 
     line-height: 1.6; 
 }
 
-/* Navigation */
-nav { background: #1a1a1a; padding: 1rem 5%; display: flex; justify-content: space-between; align-items: center; }
-nav a { color: white; text-decoration: none; margin-left: 20px; font-weight: bold; }
-nav a:hover { color: #007bff; }
+/* Navigation bar styling */
+nav { 
+    background: #1a1a1a; 
+    padding: 1rem 5%; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
 
-/* Main Content Area */
-.main-content { padding: 40px 10%; background: white; max-width: 1200px; margin: 20px auto; min-height: 60vh; border-radius: 5px; }
+/* Navigation links with light yellow color */
+nav a { 
+    color: #fff9c4; 
+    text-decoration: none; 
+    margin-left: 20px; 
+    font-weight: bold; 
+}
 
-/* Card and Image Settings */
-.card { border: 1px solid #ddd; padding: 20px; margin-bottom: 20px; border-radius: 5px; }
-.card img { width: 100%; height: 200px; object-fit: cover; border-radius: 5px; }
+/* Hover effect for navigation links */
+nav a:hover { 
+    color: #ffe082; 
+}
 
-/* Image Setting for News Page (Original Size) */
-.main-content > img { width: 100%; height: auto; }
+/* Main content container */
+.main-content { 
+    padding: 40px 10%; 
+    background: white; 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    min-height: 60vh; 
+    border-radius: 8px; 
+}
 
-/* Footer */
-footer { text-align: center; padding: 20px; background: #1a1a1a; color: white; margin-top: 20px; }
+/* Footer styling */
+footer { 
+    text-align: center; 
+    padding: 20px; 
+    background: #1a1a1a; 
+    color: #fff9c4; 
+    margin-top: 20px; 
+}
+
+/* Card styling */
+.card { 
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    margin-bottom: 20px; 
+    border-radius: 5px; 
+}
+
+/* Image responsiveness */
+img { 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
