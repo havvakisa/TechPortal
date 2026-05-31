@@ -5,7 +5,7 @@
 body { 
     font-family: 'Segoe UI', sans-serif; 
     margin: 0; 
-    background: #e0e0e0; 
+    background: #d3d3d3; 
     line-height: 1.6; 
 }
 
@@ -63,4 +63,7 @@ img {
     max-width: 100%; 
     height: auto; 
     border-radius: 5px; 
+    /* Force text color for all elements */
+* {
+    color: #fff9c4;
 }
