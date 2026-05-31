@@ -7,7 +7,7 @@
 
 body {
     background-color: #d3d3d3; /* Light gray background */
-    color: #333333;             /* Dark gray text for readability */
+    color: #333333;             /* Dark gray text */
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
 }
@@ -22,7 +22,7 @@ nav {
 }
 
 nav a {
-    color: white; /* Changed to white for better contrast on black nav */
+    color: white; 
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
@@ -51,7 +51,7 @@ footer {
     margin-top: 20px;
 }
 
-/* 5. Product Card Styling */
+/* 5. Product Card Styling (Reviews Page) */
 .card {
     border: 1px solid #ddd;
     padding: 20px;
@@ -59,12 +59,20 @@ footer {
     border-radius: 5px;
 }
 
+/* Specific styling for images inside cards */
 .card img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 5px;
     padding: 10px;
+}
+
+/* News page images (Restoring original appearance) */
+.main-content > img {
+    width: 100%;
+    height: auto;
+    padding: 0;
 }
 
 /* 6. Form and Button Styling */
