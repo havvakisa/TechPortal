@@ -5,7 +5,7 @@
 body { 
     font-family: 'Segoe UI', sans-serif; 
     margin: 0; 
-    background: #d3d3d3; 
+    background: #424242; 
     line-height: 1.6; 
 }
 
@@ -34,7 +34,7 @@ nav a:hover {
 /* Main content container */
 .main-content { 
     padding: 40px 10%; 
-    background: white; 
+    background: #424242; 
     max-width: 1200px; 
     margin: 20px auto; 
     min-height: 60vh; 
@@ -52,7 +52,7 @@ footer {
 
 /* Card styling */
 .card { 
-    border: 1px solid #ddd; 
+    border: 1px solid #424242; 
     padding: 20px; 
     margin-bottom: 20px; 
     border-radius: 5px; 
